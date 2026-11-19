@@ -1,0 +1,22 @@
+
+@import "tailwindcss";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, "Segoe UI", sans-serif;
+  background: #f5f7fb;
+  color: #172033;
+}
+.nav-item {
+  transition: background 0.2s ease, color 0.2s ease;
+  user-select: none;
+}
+
+.nav-item:not(.active):hover {
+  background: #263449;
+  color: white;
+}
